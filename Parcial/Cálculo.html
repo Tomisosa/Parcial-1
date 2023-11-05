@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cálculo</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Basico</title>
+    <link rel="shortcut icon" href="buho.png" type="image/x-icon">
+    <link rel="stylesheet" href="Cálculo.css">
+    <script src="./Futbol Pasion.js" defer></script>
+</head>
+<body>
+    <header>
+        <a href="http://127.0.0.1:5500/index.html" class="logo">
+            <img src="FutbolPasion.jpg" alt="logo">
+            <h2 class="nombre-empresa" style="color: aliceblue">Fútbol Pasión</h2>
+        </a>
+        <nav>
+            <a href="http://127.0.0.1:5500/index.html" class="nav-link">Inicio</a>
+            <a href="/Cálculo.html" class="nav-link" target="_blank">Cálculo</a>
+            <a href="/Contacto.html" class="nav-link" target="_blank">Contacto</a>
+        </nav>
+    </header>
+    <main>
+        <form class="formulario" method="dialog">
+            <fieldset>
+                <legend>Ingresá los datos de tu equipo</legend>
+
+                <div class="campo">
+                    <label for="jugados">JUGADOS:</label>
+                    <input type="number" id="jugados" required placeholder="Ej: 1,2,3.." min="0">
+                </div>
+
+                <div class="campo">
+                    <label for="ganados">GANADOS:</label>
+                    <input type="number" id="ganados" required placeholder="Ej: 1,2,3.." min="0">
+                </div>
+
+                <div class="campo">
+                    <label for="empatados">EMPATADOS:</label>
+                    <input type="number" id="empatados" required placeholder="Ej: 1,2,3.." min="0">
+                </div>
+
+                <div class="campo">
+                    <label for="perdidos">PERDIDOS:</label>
+                    <input type="number" id="perdidos" required placeholder="Ej: 1,2,3.." min="0">
+                </div>
+
+                <div class="btn">
+                    <button type="submit" class="button">Calcular</button>
+                </div>
+
+                <div class="btn">
+                    <button type="reset" class="button">Reiniciar</button>
+                </div>
+
+                <div class="campo">
+                    <label for="resultado">Efectividad:</label>
+                    <input type="text" id="resultado" readonly required placeholder="%">
+                </div>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <h3 class="Footer" style="color: blanchedalmond">Política de privacidad. Tomás Sosa. Copyright</h3>
+    </footer>
+</body>
+</html>

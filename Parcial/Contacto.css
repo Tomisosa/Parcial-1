@@ -1,0 +1,57 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background-image:url(fulbo.jpg);
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+header{
+    background-color: #2D2D2D;
+    display: flex;
+    min-height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 80px;
+    margin-right: 10px;
+}
+.Contactanos{
+        margin-right: 10px auto;
+        width: 250px;
+        text-align: center;
+        border: 1px solid white;
+        background: white ;
+        box-shadow: 0px 0px 20px black;
+    }
+.Contactanos{
+    background-color:white;
+}
+.Contactanos{
+    font-weight: 1000;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: #FFDA44;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+@media (max-width: 680px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+}
